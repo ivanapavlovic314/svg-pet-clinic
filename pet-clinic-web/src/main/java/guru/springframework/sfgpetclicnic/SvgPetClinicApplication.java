@@ -1,4 +1,4 @@
-package guru.springframework.svgpetclinic;
+package guru.springframework.sfgpetclicnic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
