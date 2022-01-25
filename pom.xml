@@ -29,11 +29,21 @@
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <version>2.22.2</version>
                 <configuration>
-                    <goals>install</goals>
-                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                    <argLine>
+                        --illegal-access=permit
+                    </argLine>
                 </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>integration-test</goal>
+                            <goal>verify</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
 
         </plugins>
