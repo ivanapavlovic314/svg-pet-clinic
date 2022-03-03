@@ -14,7 +14,7 @@
     </parent>
     <groupId>guru.springframework</groupId>
     <artifactId>svg-pet-clinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>svg-pet-clinic</name>
     <description>svg-pet-clinic</description>
     <properties>
@@ -29,7 +29,7 @@
     <scm>
         <developerConnection>scm:git:https://github.com/ivanapavlovic314/svg-pet-clinic.git</developerConnection>
         <url>https://github.com/ivanapavlovic314/svg-pet-clinic</url>
-        <tag>0.0.2</tag>
+        <tag>maven-release-plugin-1.1</tag>
     </scm>
 
 
